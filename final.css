@@ -81,6 +81,11 @@ img {
 	margin: 0 0 10px 10px;
 }
 
+iframe {
+	width:700px; 
+	height:1000px;
+
+}
 
 /* The code below here alters your links */
 a {
