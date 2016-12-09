@@ -78,7 +78,6 @@ h3 {
 
 /* IMPORTANT: this will put a border around ALL images - so the banner AND the image of you. You may want to remove the border or change it! */
 img {
-	float: right;
 	margin: 0 0 10px 10px;
 }
 
