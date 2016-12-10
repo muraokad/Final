@@ -33,7 +33,7 @@ body {
 
 @media only screen and (max-width: 700px) {
 	body {
-		width: 400px;
+		width: 360px;
 		margin: 0em auto; /* this + a defined width, centers the body content */
 		padding: 20px;
 		background-color: #eaeaea;
@@ -54,7 +54,7 @@ body {
 #nav {
 	list-style-type: none;
 	background-color: #edb793;
-	width: 360px;
+	width: 300px;
 	padding: 10px;
 	text-align: left;
 	margin-left: auto;
@@ -105,7 +105,7 @@ img {
 
 @media only screen and (max-width: 700px) {
 	img {
-		max-width: 360px;
+		max-width: 300px;
 		margin: 0 0 10px 10px;
 	}
 }
@@ -118,7 +118,7 @@ iframe {
 
 @media only screen and (max-width: 700px) {
 	iframe {
-		width:360px;
+		width:300px;
 		height:540px;
 	}
 /* The code below here alters your links */
