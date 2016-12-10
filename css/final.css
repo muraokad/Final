@@ -31,9 +31,9 @@ body {
 	background-color: #eaeaea;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
 	body {
-		width: 480px;
+		width: 400px;
 		margin: 0em auto; /* this + a defined width, centers the body content */
 		padding: 20px;
 		background-color: #eaeaea;
@@ -48,6 +48,18 @@ body {
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+@media only screen and (max-width: 700px) {
+#nav {
+	list-style-type: none;
+	background-color: #edb793;
+	width: 360px;
+	padding: 10px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
 }
 
 #nav a {
@@ -86,9 +98,16 @@ h3 {
 	font-weight: bold;
 }
 
-/* IMPORTANT: this will put a border around ALL images - so the banner AND the image of you. You may want to remove the border or change it! */
+
 img {
 	margin: 0 0 10px 10px;
+}
+
+@media only screen and (max-width: 700px) {
+	img {
+		max-width: 360px;
+		margin: 0 0 10px 10px;
+	}
 }
 
 iframe {
@@ -97,14 +116,16 @@ iframe {
 
 }
 
+@media only screen and (max-width: 700px) {
+	iframe {
+		width:360px;
+		height:540px;
+	}
 /* The code below here alters your links */
 a {
   font-weight: bold;
 }
 
-b {
-  clear: left;
-}
 
 a:hover {
 	text-decoration: none;
