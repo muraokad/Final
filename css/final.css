@@ -43,8 +43,11 @@ body {
 #nav {
 	list-style-type: none;
 	background-color: #edb793;
-	width: 800px;
+	width: 775px;
 	padding: 5px;
+	border-color: #565656;
+  border-style: solid;
+  border-width: 5px;
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
